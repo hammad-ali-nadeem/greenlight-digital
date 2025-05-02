@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Greenlight Digital</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class=" text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-[#240D4B] text-white py-4">
+    <div class="container mx-auto hidden lg:flex items-center justify-end px-4 top-bar z-[9] relative">
+      <div class="email email flex flex-row">
+        <img src="img/envelop-light.png" class="mr-2 mt-1 w-[18px] h-[14px]" />
+        info@greenlight-digital.co.uk
+      </div>
+      <div class="phone email flex flex-row ml-6">
+        <img src="img/phone-light.png" class="mr-2 mt-1 w-[16px] h-[16px]" />
+        01234 567 890
+      </div>
+      <div class="social email flex flex-row ml-6">
+        <a href="facebook.com" target="_blank" class="mr-4"><img src="img/facebook.png" class="w-[10px] h-[18px]"></a>
+        <a href="facebook.com" target="_blank" class="mr-4"><img src="img/linkedin.png" class="w-[18px] h-[18px]"></a>
+        <a href="facebook.com" target="_blank" class=""><img src="img/instagram.png" class="w-[17px] h-[18px]"></a>
+      </div>
+    </div>
+    <div class="container mx-auto flex items-center justify-between px-4 z-[9] relative">
+      <div class="lg:w-[375px] w-[55%] font-bold"><img src="img/logo.png"/></div>
+      <nav class="space-x-16 hidden lg:flex lg:flex-row font-bold">
+        <a class="close lg:hidden absolute right-2 top-2">X</a>
+        <a href="#" class="hover:text-[#AEE9B6]">Our Websites</a>
+        <a href="#" class="hover:text-[#AEE9B6]">About Us</a>
+        <a href="#" class="hover:text-[#AEE9B6]">Reviews</a>
+        <a href="#" class="bg-[#AEE9B6] px-4 py-2 -mt-2 text-black rounded-[11px]">Talk To Us</a>
+      </nav>
+      <div class="lg:hidden">
+        <nav class="mobile-hidden min-w-full space-y-4 flex flex-col font-bold">
+          <a class="close lg:hidden absolute right-2 top-2">X</a>
+          <a href="#" class="hover:text-[#AEE9B6]">Our Websites</a>
+          <a href="#" class="hover:text-[#AEE9B6]">About Us</a>
+          <a href="#" class="hover:text-[#AEE9B6]">Reviews</a>
+          <a href="#" class="bg-[#AEE9B6] px-4 py-2 -mt-2 text-black rounded-[11px]">Talk To Us</a>
+          <div class="flex flex-col space-y-4">
+            <div class="email email flex flex-row">
+              <img src="img/envelop-light.png" class="mr-2 mt-1 w-[18px] h-[14px]" />
+              info@greenlight-digital.co.uk
+            </div>
+            <div class="phone email flex flex-row">
+              <img src="img/phone-light.png" class="mr-2 mt-1 w-[16px] h-[16px]" />
+              01234 567 890
+            </div>
+            <div class="social email flex flex-row">
+              <a href="facebook.com" target="_blank" class="mr-4"><img src="img/facebook.png" class="w-[10px] h-[18px]"></a>
+              <a href="facebook.com" target="_blank" class="mr-4"><img src="img/linkedin.png" class="w-[18px] h-[18px]"></a>
+              <a href="facebook.com" target="_blank" class=""><img src="img/instagram.png" class="w-[17px] h-[18px]"></a>
+            </div>
+          </div>
+        </nav>
+        <button class="text-green-400 open-menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-[#240D4B] text-white pt-16 pb-12 px-4 hero relative ">
+    <div class="container mx-auto grid lg:grid-cols-2 gap-6 items-center">
+      <div>
+        <h1 class="sm:text-[91px] text-[32px] font-bold mb-2 leading-tight">Ready To Go</h1>
+        <p class="sm:text-[32px] text-[18px] mb-6 text-[#AEE9B6] font-bold">Smart and efficient websites</p>
+        <p class="mb-2 font-light">We specialize in building high-quality, template-based websites that save you time, energy, and money without sacrificing design or functionality.</p>
+        <p class="mb-6 font-semibold">Talk to us and we’ll get you up and running!</p>
+        <div class="flex space-x-4">
+          <button class="bg-[#AEE9B6] px-4 py-2 text-black font-bold rounded-[11px]">Our Websites</button>
+          <button class="border-[5px] border-[#AEE9B6] px-6 py-3 rounded-[11px] font-bold">Talk to us</button>
+        </div>
+      </div>
+      <div class="flex justify-center relative sm:mb-0 mb-12">
+        <img src="img/circle.png" alt="Phone" class="absolute z-3 max-w-[65%] bottom-[0px] rotate-anti-clockwise ">
+        <img src="img/hero-phone.png" alt="Phone" class="sm:max-w-[31rem] max-w-[85%] z-[4]">
+      </div>
+    </div>
+    <div class="container mx-auto flex flex-row items-center">
+      <img src="img/Icon akar-arrow-right.png" class="mr-12">
+      <div class="text-slider">
+        <div>Affordable options</div>
+        <div>Clear and Honest Deliverables</div>
+        <div>Fast Turnarounds</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Websites Slider -->
+  <section class="pt-24 pb-12 px-4 bg-white">
+    <div class="container mx-auto">
+      <div class="flex sm:flex-row flex-col justify-between sm:mb-0 mb-12">
+        <h2 class="sm:text-[62px] text-[28px] font-bold mb-6 text-[#240D4B]">Our Websites</h2>
+        <button class="bg-[#89D991] max-h-[51px] mt-3 px-4 py-2 text-black font-bold rounded-[11px]">See Moree Websites</button>
+      </div>
+      <div class="website-slider1">
+        <div>
+          <img src="img/web1.png" alt="Site 1" class="rounded-xl mb-4"/>
+          <h3 class="font-bold text-[26px] text-black">Cagney’s</h3>
+          <p class="text-[14px] font-light">Booking System  |  Hospitality </p>
+        </div>
+        <div>
+          <img src="img/web2.png" alt="Site 1" class="rounded-xl mb-4"/>
+          <h3 class="font-bold text-[26px] text-black">FPC Solutions</h3>
+          <p class="text-[14px] font-light">Ecommerce  |  Industrial </p>
+        </div>
+        <div>
+          <img src="img/web3.png" alt="Site 1" class="rounded-xl mb-4"/>
+          <h3 class="font-bold text-[26px] text-black">Mamma Post Natal</h3>
+          <p class="text-[14px] font-light">Brochure  |   Fitness</p>
+        </div>
+        <div>
+          <img src="img/web1.png" alt="Site 1" class="rounded-xl mb-4"/>
+          <h3 class="font-bold text-[26px] text-black">Cagney’s</h3>
+          <p class="text-[14px] font-light">Booking System  |  Hospitality </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Simplicity Section -->
+  <section class="py-12 flex ">
+    <div class="grid grid-cols-1 lg:grid-cols-[40%_60%] gap-8 items-center overflow-hidden w-full">
+      <div class="phones-img z-10 relative">
+        <img src="img/phons.png" alt="Phones" class="rounded-xl"/>
+      </div>
+      <div class="website-kit z-10 h-[100%] relative py-[100px] px-12">
+        <h3 class="text-[50px] text-[#240D4B] font-bold ">Get your website in</h3>
+        <h3 class="text-[50px] text-[#89D991] font-bold mb-2">three easy steps</h3>
+        <div class="flex flex-col space-y-12 lg:max-w-[55%] relative z-10">
+          <!-- Step 1 -->
+          <div class="flex items-start space-x-4 steps">
+            <div class="bg-[#89D991] rounded-full min-w-[78px] min-h-[78px] flex items-center justify-center">
+              <img src="./img/arrow-blue.png" class="w-[47px] h-[47px] mt-1" alt="Select Icon">
+            </div>
+            <div>
+              <h3 class="text-[25px] font-bold text-[#240D4B] mb-1">Select</h3>
+              <p class="text-[#022221]">From our library of professional-grade templates.</p>
+            </div>
+          </div>
+        
+          <!-- Step 2 -->
+          <div class="flex items-start space-x-4 steps">
+            <div class="bg-[#89D991] rounded-full min-w-[78px] h-[78px] flex items-center justify-center">
+              <img src="./img/cogs.png" class="w-[47px] h-[43px] mt-1" alt="Customize Icon">
+            </div>
+            <div>
+              <h3 class="text-[25px] font-bold text-[#240D4B] mb-1">Customize</h3>
+              <p class="text-[#022221]">With brand-specific colors, fonts, and images to make the site uniquely yours.</p>
+            </div>
+          </div>
+        
+          <!-- Step 3 -->
+          <div class="flex items-start space-x-4 steps">
+            <div class="bg-[#89D991] rounded-full min-w-[78px] min-h-[78px] flex items-center justify-center">
+              <img src="./img/rocket.png" class="w-[51px] h-[47px] mt-1" alt="Launch Icon">
+            </div>
+            <div>
+              <h3 class="text-[25px] font-bold text-[#240D4B] mb-1">Launch</h3>
+              <p class="text-[#022221]">A website that’s ready to go live and drive results.</p>
+            </div>
+          </div>
+          <div class="flex items-start  steps-end">
+            <div class="w-[78px] flex justify-end"><span class="bg-[#41286C] h-[3px] w-[40px] mt-4 block"></span></div>
+            <button class="border-[5px] border-[#AEE9B6] px-6 py-3 rounded-[11px] font-bold">Talk to us</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!--About Us-->
+  <section class="aboutus text-white pt-24 p-12">
+    <div class="container mx-auto flex flex-col lg:flex-row items-center gap-10">
+    
+      <!-- Text Block -->
+      <div class="lg:w-5/12 bg-white rounded-xl shadow-lg p-8">
+        <h2 class="text-2xl md:text-[40px] font-bold text-[#240D4B] mb-4 ">
+          We’re all about simplicity, speed and results
+        </h2>
+        <p class="text-[#232323] mb-4">
+          Our unique approach combines pre-designed templates with customisation options to match your brand’s unique identity. This means you get a beautifully designed, fully responsive, and optimised website faster than ever, with the confidence that everything is crafted with intention and expertise.
+        </p>
+        <p class="text-[#232323] mb-6">
+          We’re not just building websites; we’re powering up your online presence <span class="font-bold"> you can focus on what you do best.</span>
+        </p>
+        <div class="flex gap-4 flex-wrap">
+          <a href="#" class="bg-[#240D4B] text-white px-5 py-3 rounded-[11px] font-medium text-sm">Find out More</a>
+          <a href="#" class="border border-[#89D991] text-[#240D4B] px-5 py-3 rounded-[11px] font-medium text-sm ">Talk To Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- What to Expect -->
+  <section class="bg-[#240D4B] text-white py-32 px-4 overflow-hidden">
+    <div class="container mx-auto mb-24">
+      <h3 class="text-[24px] font-light uppercase mb-8">Here's what to expect</h3>
+      <div class="flex flex-col">
+        <div class="bg-[#2e0a56] p-6 rounded-xl mb-6 w-[105%] shadow-xl flex-col sm:flex-row flex">
+          <div><img src="./img/timecheck.png" class="mr-4"></div>
+          <div class="flex flex-col">
+            <h4 class="text-[#AEE9B6] font-bold text-[42px] sm:text-[60px] mb-2 ">Fast Turnarounds</h4>
+            <p class="text-white text-[22px]">Get your site live in record time without compromise on quality.</p>
+          </div>
+        </div>
+        <div class="bg-[#2e0a56] p-6 rounded-xl mb-6 w-[105%] shadow-xl flex-col sm:flex-row flex">
+          <div><img src="./img/wallet.png" class="mr-4"></div>
+          <div class="flex flex-col">
+            <h4 class="text-[#AEE9B6] font-bold text-[42px] sm:text-[60px] mb-2">Affordable Options</h4>
+            <p class="text-white text-[22px]">Upfront pricing so you’re not shocked later.</p>
+          </div>
+        </div>
+        <div class="bg-[#2e0a56] p-6 rounded-xl mb-6 w-[105%] shadow-xl flex-col sm:flex-row flex">
+          <div><img src="./img/eye.png" class="mr-4"></div>
+          <div class="flex flex-col">
+            <h4 class="text-[#AEE9B6] font-bold text-[42px] sm:text-[60px] mb-2">Clear and Honest</h4>
+            <p class="text-white text-[22px]">No jargon. No confusion. Just exactly what you see.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mx-auto rounded-[25px] text-black founder grid grid-cols-1 lg:grid-cols-[40%_60%] items-center relative overflow-hidden py-6">
+      <div></div>
+      <div class="p-6 md:p-12 relative z-10">
+        <p class="bg-[#AEE9B6] font-light text-sm px-3 py-1 rounded-md inline-block mb-4">
+          A message from our founder
+        </p>
+        <h3 class="text-[#240D4B] text-3xl md:text-[50px] font-bold mb-6 leading-snug pr-12">
+          Greenlight was created to fix the pitfalls I’ve seen over my 20 year career
+        </h3>
+        <p class="text-gray-700 mb-4 lg:max-w-[73%] ml-auto">
+          When I started this journey, I had one goal in mind: to simplify the process of building high-quality websites for businesses like yours. I’ve seen too many people overwhelmed by complicated tech, overblown costs, and endless delays—and I knew there had to be a better way.
+        </p>
+        <p class="text-gray-700 mb-4 lg:max-w-[73%] ml-auto">
+          At Green Light Digital, we believe every business deserves a professional online presence without the stress. That’s why we focus on speed, affordability, and transparency, delivering websites that not only look amazing but are ready to drive results.
+        </p>
+        <p class="font-bold text-[#1e003c] lg:max-w-[73%]  ml-auto mb-6">
+          Thank you for trusting us with your vision. We’re excited to help you bring it to life!
+        </p>
+        <div class="flex flex-row lg:max-w-[73%] ml-auto">
+          <img src="./img/Daniel.png" >
+          <img src="./img/Brown.png">
+        </div>
+        <!-- Signature and Button -->
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 lg:max-w-[73%]  ml-auto">
+          <div>
+            <p class="font-signature text-2xl">Daniel Brown</p>
+            <p class="text-sm text-gray-600">Founder & Director</p>
+          </div>
+          <a href="#" class="bg-[#240D4B] text-white px-6 py-3 text-center rounded-[11px] font-medium text-sm">
+            Get Started
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Giving Back-->
+  <section class="bg-white py-16 px-4 lg:px-12">
+    <div class="container mx-auto relative">
+      <!-- Heading & Subtext -->
+      <div class="mb-12">
+        <h2 class="text-3xl lg:text-4xl font-bold text-[#240D4B] mb-2">Greenlight giving back</h2>
+        <p class="text-gray-600 max-w-2xl">
+          First and foremost, we are business, but we are also doing our bit to be the good guys! <br class="hidden md:block" />
+          Here’s how we’re supporting the local community.
+        </p>
+  
+        <!-- Button top right -->
+        <a href="#"
+           class="sm:absolute right-0 top-0 bg-[#240D4B] relative block text-center sm:mt-0 mt-4 text-white px-5 py-2 rounded-md text-sm font-semibold">
+          Find Out More
+        </a>
+      </div>
+  
+      <!-- Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="text-center md:text-left">
+          <img src="./img/family.png" alt="Family in Action" class="rounded-md mb-4 mx-auto md:mx-0" />
+          <h4 class="font-semibold text-[#240D4B] mb-1">Family In Action</h4>
+          <p class="text-sm text-gray-600">
+            We donate 1% of our profits to this vital charity, helping families in need.
+          </p>
+        </div>
+  
+        <!-- Card 2 -->
+        <div class="text-center md:text-left">
+          <img src="./img/learning.png" alt="Learning Support" class="rounded-md mb-4 mx-auto md:mx-0" />
+          <h4 class="font-semibold text-[#240D4B] mb-1">Learning Support</h4>
+          <p class="text-sm text-gray-600">
+            We train and employ young adults with disabilities to build confidence, develop web skills, and earn a meaningful income.
+          </p>
+        </div>
+  
+        <!-- Card 3 -->
+        <div class="text-center md:text-left">
+          <img src="./img/community.png" alt="Community Support" class="rounded-md mb-4 mx-auto md:mx-0" />
+          <h4 class="font-semibold text-[#240D4B] mb-1">Community support</h4>
+          <p class="text-sm text-gray-600">
+            We create free websites for businesses in need, keeping them online and operational during challenging times.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Testimonials Slider -->
+  <section class="py-12 px-4 bg-white">
+    <div class="container mx-auto">
+      <div class="flex flex-col sm:flex-row justify-between sm:mb-0 mb-4">
+        <h2 class="text-[32px] sm:text-[62px] font-bold mb-6 text-[#240D4B]">What our clients say</h2>
+        <button class="bg-[#240D4B] max-h-[51px] mt-3 px-4 py-2 text-white font-bold rounded-[11px]">Read More Reviews</button>
+      </div>
+      <div class="testimonial-slider flex items-stretch h-full">
+        <div class="bg-[#240D4B] text-white p-12 rounded-[38px] h-full mx-4 min-h-[335px]">
+          <div class="stars flex flex-row mb-4">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+          </div>
+          <p class="text-white mb-6 text-[16px] font-light">"Green Light Digital took my website to the next level in record time! The design options were fantastic, and the customization process was so smooth. Now, my site looks polished and professional, and I didn’t have to break the bank. Highly recommend!"</p>
+          <p class="text-white text-[16px] font-light">- Alex P, Small Business Owner</p>
+        </div>
+        <div class="bg-[#240D4B] text-white p-12 rounded-[38px] h-full mx-4 min-h-[335px]">
+          <div class="stars flex flex-row mb-4">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+          </div>
+          <p class="text-white mb-6 text-[16px] font-light">"The Green Light team is incredible! They guided me through every step of the process, from selecting a template to launching my site. I now have a beautiful, functional website that perfectly represents my brand. Couldn’t be happier!"</p>
+          <p class="text-white text-[16px] font-light">- Jenna R, Small Business Owner</p>
+        </div>
+        <div class="bg-[#240D4B] text-white p-12 rounded-[38px] h-full mx-4 min-h-[335px]">
+          <div class="stars flex flex-row mb-4">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+          </div>
+          <p class="text-white mb-6 text-[16px] font-light">"Green Light Digital took my website to the next level in record time! The design options were fantastic, and the customization process was so smooth. Now, my site looks polished and professional, and I didn’t have to break the bank. Highly recommend!"</p>
+          <p class="text-white text-[16px] font-light">- Alex P, Small Business Owner</p>
+        </div>
+        <div class="bg-[#240D4B] text-white p-12 rounded-[38px] h-full mx-4 min-h-[335px]">
+          <div class="stars flex flex-row mb-4">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+          </div>
+          <p class="text-white mb-6 text-[16px] font-light">"Working with Green Light Digital was the best decision for my business. They made web design easy, fast, and affordable, while still giving me a custom feel. My site is stylish and efficient, and the customer support was outstanding!"</p>
+          <p class="text-white text-[16px] font-light">- Ray T, Small Business Owner</p>
+        </div>
+        <div class="bg-[#240D4B] text-white p-12 rounded-[38px] h-full mx-4 min-h-[335px]">
+          <div class="stars flex flex-row mb-4">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+          </div>
+          <p class="text-white mb-6 text-[16px] font-light">"The Green Light team is incredible! They guided me through every step of the process, from selecting a template to launching my site. I now have a beautiful, functional website that perfectly represents my brand. Couldn’t be happier!"</p>
+          <p class="text-white text-[16px] font-light">- Jenna R, Small Business Owner</p>
+        </div>
+        <div class="bg-[#240D4B] text-white p-12 rounded-[38px] h-full mx-4 min-h-[335px]">
+          <div class="stars flex flex-row mb-4">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+          </div>
+          <p class="text-white mb-6 text-[16px] font-light">"Green Light Digital took my website to the next level in record time! The design options were fantastic, and the customization process was so smooth. Now, my site looks polished and professional, and I didn’t have to break the bank. Highly recommend!"</p>
+          <p class="text-white text-[16px] font-light">- Alex P, Small Business Owner</p>
+        </div>
+        <div class="bg-[#240D4B] text-white p-12 rounded-[38px] h-full mx-4 min-h-[335px] ">
+          <div class="stars flex flex-row mb-4">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+            <img src="./img/star.png" class="mr-1">
+          </div>
+          <p class="text-white mb-6 text-[16px] font-light">"Working with Green Light Digital was the best decision for my business. They made web design easy, fast, and affordable, while still giving me a custom feel. My site is stylish and efficient, and the customer support was outstanding!"</p>
+          <p class="text-white text-[16px] font-light">- Ray T, Small Business Owner</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Follow-->
+  <section class="bg-white py-16 px-4 md:px-12">
+    <div class="container mx-auto">
+      <!-- Heading -->
+      <h2 class="text-2xl md:text-3xl font-bold text-[#240D4B] mb-8"></h2>
+      <div class="flex flex-row justify-between">
+        <h2 class="text-[62px] font-bold mb-6 text-[#240D4B]">Follow us on social media</h2>
+        <div>
+          <button class="bg-[#240D4B] w-[64px] h-[64px] mt-3 px-4 py-2 text-white font-bold rounded-[11px]">
+            <img src="./img/facebook.png">
+          </button>
+          <button class="bg-[#240D4B] w-[64px] h-[64px] mt-3 px-4 py-2 text-white font-bold rounded-[11px]">
+            <img src="./img/linkedin.png">
+          </button>
+          <button class="bg-[#240D4B] w-[64px] h-[64px] mt-3 px-4 py-2 text-white font-bold rounded-[11px]">
+            <img src="./img/instagram.png">
+          </button>
+        </div>
+      </div>
+      <!-- Social Media Grid -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 gap-4">
+        <!-- Item 1 -->
+        <div>
+          <img src="./img/itstheweakend.png" alt="It's The Weekend" class="w-full h-auto rounded-md" />
+        </div>
+  
+        <!-- Item 2 -->
+        <div>
+          <img src="./img/greenlightcard.png" alt="Greenlight" class="w-full h-auto rounded-md" />
+        </div>
+  
+        <!-- Item 3 -->
+        <div>
+          <img src="./img/greenlightcircle.png" alt="Greenlight Disc" class="w-full h-auto rounded-md" />
+        </div>
+  
+        <!-- Item 4 -->
+        <div>
+          <img src="./img/board.png" alt="Office Glass Reflection" class="w-full h-auto rounded-md" />
+        </div>
+  
+        <!-- Item 5 -->
+        <div class="flex items-center justify-center gap-4 mt-4 md:mt-0">
+          <a href="#" class="text-[#240D4B] text-xl hover:text-purple-700">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="text-[#240D4B] text-xl hover:text-purple-700">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="text-[#240D4B] text-xl hover:text-purple-700">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer Contact -->
+  <footer class="bg-[#001f1f] text-white pt-16 ">
+    <div class="container mx-auto flex flex-col lg:flex-row gap-8 lg:px-0 px-4">
+      <!-- Contact Section - Left 45% -->
+      <div class="w-full lg:w-[45%]">
+        <h4 class="text-[60px] text-[#AEE9B6] font-bold mb-4 mt-4">Let’s talk</h4>
+        <p class="mb-4 max-w-md font-light">
+          If you have any questions or would like to get started, get in touch using our form and a member of our team will be in touch as soon as possible.
+        </p>
+        <p class="mb-6 max-w-md font-light">Alternatively, you can reach us via:</p>
+        <p class="mb-4 flex items-center"><img src="./img/envelop-light.png" class="mr-4 h-[21px] w-[24px]"> hello@greenlight.com</p>
+        <p class="mb-4 flex items-center"><img src="./img/phone-light.png" class="mr-4 h-[19px] w-[21px]"> 2334567891</p>
+        
+        <!-- Social Icons -->
+        <div class="flex space-x-4 mt-4">
+          <a href="#"><img src="./img/facebook.png" class="h-[26px]"></a>
+          <a href="#"><img src="./img/linkedin.png" class="h-[26px]"></a>
+          <a href="#"><img src="./img/instagram.png" class="h-[26px]"></a>
+        </div>
+      </div>
+    
+      <!-- Contact Form - Right 55% -->
+      <form class="w-full lg:w-[55%] grid md:grid-cols-2 gap-6 pt-12">
+        <!-- Left Column -->
+        <div class="space-y-4">
+          <div><label>Name</label><input type="text" placeholder="Name" class="w-full p-3 rounded bg-transparent border-2 border-[#AEE9B7] text-black" /></div>
+          <div><label>Email</label><input type="email" placeholder="Email" class="w-full p-3 rounded bg-transparent border-2 border-[#AEE9B7] text-black" /></div>
+          <div><label>Telephone</label><input type="text" placeholder="Template" class="w-full p-3 rounded bg-transparent border-2 border-[#AEE9B7] text-black" /></div>
+        </div>
+    
+        <!-- Right Column -->
+        <div class="flex flex-col space-y-4 h-full">
+          <div>
+            <label>Message</label><textarea placeholder="Message" rows="8" class="w-full p-3 rounded bg-transparent border-2 border-[#AEE9B7] text-black flex-1 h-[230px]"></textarea></div>
+          <div class="ml-auto">
+            <button type="submit" class="bg-[#AEE9B6] text-black px-6 py-3 rounded font-semibold ">
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+  
+    <!-- Footer Menu & Logo -->
+    <div class="container mx-auto mt-12  pt-8 flex flex-col lg:flex-row justify-between items-center text-sm ">
+      <!-- Logo -->
+      <div class="mb-4 lg:mb-0">
+        <img src="./img/logo.png" alt="Greenlight Logo" class="h-16" />
+      </div>
+      <div class="flex flex-col">
+        <!-- Menu -->
+        <ul class="flex flex-wrap justify-center gap-4 lg:gap-16 text-gray-300 mb-6">
+          <li><a href="#" class="hover:text-white">Our Websites</a></li>
+          <li><a href="#" class="hover:text-white">About Us</a></li>
+          <li><a href="#" class="hover:text-white">Giving Back</a></li>
+          <li><a href="#" class="hover:text-white">Testimonials</a></li>
+          <li><a href="#" class="hover:text-white">Contact</a></li>
+        </ul>
+        <div class="hidden lg:flex flex-row justify-end ">
+          <div class="email email flex flex-row">
+            <img src="img/envelop-light.png" class="mr-2 mt-1 w-[18px] h-[14px]" />
+            info@greenlight-digital.co.uk
+          </div>
+          <div class="phone email flex flex-row ml-6">
+            <img src="img/phone-light.png" class="mr-2 mt-1 w-[16px] h-[16px]" />
+            01234 567 890
+          </div>
+          <div class="social email flex flex-row ml-6">
+            <a href="facebook.com" target="_blank" class="mr-4"><img src="img/facebook.png" class="w-[10px] h-[18px]"></a>
+            <a href="facebook.com" target="_blank" class="mr-4"><img src="img/linkedin.png" class="w-[18px] h-[18px]"></a>
+            <a href="facebook.com" target="_blank" class=""><img src="img/instagram.png" class="w-[17px] h-[18px]"></a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  
+    <!-- Copyright -->
+    <div class="bg-[#011010] text-center text-xs text-gray-400 py-4 mt-6 ">
+      <div class="container flex-col lg:flex-row mx-auto flex text-white justify-between">
+        <ul class="flex flex-row gap-6 sm:px-0 px-4 justify-center lg:justify-start mb-4 lg:mb-0">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terfms & Conditions</a></li>
+        </ul>
+        <div class="text-center lg:text-right">Green Light Digital 2024</div>
+      </div>
+    </div>
+  </footer>
+  
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
